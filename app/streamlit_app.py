@@ -2,7 +2,7 @@
 import streamlit as st
 import requests
 
-API_URL = "http://localhost:8000/predict"
+API_URL = "https://car-prediction-jegj.onrender.com"
 
 st.set_page_config(page_title="Car Price Prediction", page_icon="🚗", layout="centered")
 
